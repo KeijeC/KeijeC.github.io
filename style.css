@@ -1,0 +1,55 @@
+html, body { height: 100% }
+
+.navbar {
+  overflow: hidden;
+  background-color: #1c1c1c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar a {
+  font-family: sans-serif;
+  float: left;
+  display: block;
+  color: #FFFCF2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.navbar a:hover {
+  background: #048BA8;
+  color: black;
+  padding: 14px 16px;
+  transform: translateY(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+.main {
+  margin-top: 50px;
+}
+
+html {
+  background-color:#4a4a4a;
+}
+
+h1 {
+  text-align: right;
+  font-family: Sans-serif;
+  color: #FFFCF2;
+}
+
+h2 {
+  text-align: center;
+  font-family: Sans-serif;
+  color: #FFFCF2;
+}
+
+p {
+  text-align: justify;
+  color: #FFFCF2;
+  font-family: Sans-serif;
+}
